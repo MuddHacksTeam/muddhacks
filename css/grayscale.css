@@ -28,6 +28,7 @@ h6 {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
+    color:#e0aa0f;
 }
 
 p {
@@ -40,7 +41,7 @@ p {
     .container {
         width:650px;
     }
-    
+
     p {
         margin: 0 0 35px;
         font-size: 20px;
