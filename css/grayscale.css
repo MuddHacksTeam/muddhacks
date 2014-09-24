@@ -131,6 +131,10 @@ a:focus {
     }
 }
 
+.container {
+    width:650px;
+}
+
 .intro {
     display: table;
     width: 100%;
