@@ -37,6 +37,10 @@ p {
 }
 
 @media(min-width:767px) {
+    .container {
+        width:650px;
+    }
+    
     p {
         margin: 0 0 35px;
         font-size: 20px;
@@ -129,10 +133,6 @@ a:focus {
     .navbar-custom.top-nav-collapse {
         border-bottom: 1px solid rgba(255,255,255,.3);
     }
-}
-
-.container {
-    width:650px;
 }
 
 .intro {
