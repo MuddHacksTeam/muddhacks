@@ -38,6 +38,11 @@ h6 {
      1px 1px 0 #000;
 }
 
+
+h4 {
+    margin: 35px 0 0;
+}
+
 p {
     margin: 0 0 25px;
     font-size: 18px;
@@ -298,7 +303,7 @@ a:focus {
     -o-background-size: cover;
 }
 
-#dates li{
+#dates li, #hackweek li{
     display:table-cell;
 }
 .datecell {
@@ -306,7 +311,6 @@ a:focus {
     font-size: 18px;
 }
 .datecell.right {
-    font-weight: 800;
     text-align: right;
     width: 150px;
 }
@@ -314,7 +318,11 @@ a:focus {
     font-weight: 400;
     text-align: left;
 }
-#dates ul{
+#hackweek .datecell.left {
+    font-weight: 300;
+    text-align: left;
+}
+#dates ul, #hackweek ul{
     display:table-row;
 }
 #map {
