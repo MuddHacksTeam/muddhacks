@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MicroHack</title>
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script>
+	$(document).ready(function() {
+		$("#cook").click(function() {
+			var time = $("#time").val();
+			var device_id = "53ff70066667574833332567";
+			var access_token = "9fb8e55ea425fa8a1d8c8542461fcbb89d8aeab4"
+			var function_name = "cook";
+			var uri = "https://api.spark.io/v1/devices/" + device_id + "/" + function_name;
+			uri += "?access_token=" + access_token;
+			uri += "&args=" + time; 
+			
+
+			$.post( uri );
+		});
+	});
+	</script>
+</head>
+<body>
+<div style="width:600px;margin:0 auto;font-family:Helvetica Neue, sans-serif;">
+<h2>MicroHack</h2>
+<p>Time to Cook: <input id="time"></p>
+<p><button id="cook">Cook</button></p>
+</div>
+</body>
+</html>
