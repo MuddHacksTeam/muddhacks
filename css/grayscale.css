@@ -66,6 +66,24 @@ section ol, section ul {
     }
 }
 
+
+thead {
+    width: 100%;
+
+}
+td {
+    padding: 5px 5px 5px 0;
+    vertical-align: top;
+    font-size: 20px;
+}
+th {
+    padding-right: 10px;
+    text-align: left;
+    font-size: 20px;
+}
+
+
+
 a {
     color: #3d85ed;
     -webkit-transition: all .2s ease-in-out;
