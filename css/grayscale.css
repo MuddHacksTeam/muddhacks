@@ -539,6 +539,15 @@ body {
 .img-triptych #img3 {
   background-image: url('../img/2014/photo3.jpg');
 }
+.img-triptych #img1_2015 {
+  background-image: url('../img/2015/img1.jpg');
+}
+.img-triptych #img2_2015 {
+  background-image: url('../img/2015/img2.jpg');
+}
+.img-triptych #img3_2015 {
+  background-image: url('../img/2015/img3.jpg');
+}
 
 .intro-small {
   height: 400px !important;
