@@ -188,7 +188,7 @@ a:focus {
     display: table;
     width: 100%;
     height: auto;
-    padding: 100px 0;
+    padding: 0px 0;
     text-align: center;
     color: #fff;
     background: url(../img/home-bg-2017-color.png) no-repeat center center scroll;
@@ -213,9 +213,10 @@ a:focus {
 }
 
 .intro .logo {
-    margin-bottom: 40px;
-    padding-right: 0px;
-    text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: inline;
 }
 
 .intro .intro-body .brand-heading {
@@ -239,6 +240,10 @@ a:focus {
     .intro .intro-body .intro-text {
         font-size: 25px;
     }
+}
+
+@media(max-width:767px) {
+    .intro .logo { display:none }
 }
 
 
