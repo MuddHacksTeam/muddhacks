@@ -553,7 +553,29 @@ body {
 .img-triptych #img3_2015 {
   background-image: url('../img/2015/img3.jpg');
 }
+.img-triptych #img1_2016 {
+  background-image: url('../img/2016/1.jpg');
+}
+.img-triptych #img2_2016 {
+  background-image: url('../img/2016/2.jpg');
+}
+.img-triptych #img3_2016 {
+  background-image: url('../img/2016/3.jpg');
+}
+.img-triptych #img1_2017 {
+  background-image: url('../img/2017/1.jpg');
+}
+.img-triptych #img2_2017 {
+  background-image: url('../img/2017/2.jpg');
+}
+.img-triptych #img3_2017 {
+  background-image: url('../img/2017/3.jpg');
+}
 
 .intro-small {
   height: 400px !important;
+}
+
+li.selected {
+  background-color: rgba(255,255,255,.3);
 }
